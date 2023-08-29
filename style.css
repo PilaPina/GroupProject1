@@ -1,0 +1,22 @@
+/* added a potential logo - need to make a logo class */
+img {
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+/* List in nav bar */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/* added this in just for the color from Figma */
+footer {
+    background-color: #0074A7;
+    padding: 40px;
+}
