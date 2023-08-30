@@ -87,3 +87,16 @@ footer {
     background-color: #0074A7;
     padding: 40px;
 }
+
+   
+    
+    
+.icons
+{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 50px;
+    color: #0074A7;
+}
+
