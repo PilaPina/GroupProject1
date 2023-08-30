@@ -13,6 +13,18 @@ h2{
     margin-left: 50px;
 }
 
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 0 5px 5px black;
+    
+}
+
 /* List in nav bar */
 ul {
     list-style: none;
