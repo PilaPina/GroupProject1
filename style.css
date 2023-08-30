@@ -75,3 +75,15 @@ footer {
     background-color: #0074A7;
     padding: 40px;
 }
+
+   
+    
+    
+.icone1 
+{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+
+}
+
