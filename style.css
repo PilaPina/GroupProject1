@@ -6,14 +6,27 @@ html{
     scroll-behavior: smooth;
 }
 
+
 /* added a potential logo - need to make a logo class */
-img {
+.navbar-logo img {
     display: block;
     width: 100px;
     height: 100px;
 }
 
-h2{
+img {
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 5%;
+}
+
+.centerImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-logo h2{
     color: #011B28;
     margin-left: 50px;
 }
@@ -26,6 +39,14 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 100px;
     text-shadow: 0 5px 5px black;
+}
+
+
+.centerText{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 20px;
 }
 
 .navbar-buttons a{
@@ -52,6 +73,7 @@ header{
     background-image: url("images/backgroundImage.jpg");
     background-size: cover;
     height: 100vh;
+    margin-bottom: 40px;
 }
 
 .navbar-buttons, .navbar-logo{
