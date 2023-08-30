@@ -1,3 +1,4 @@
+/* Core Items  */
 *{
     font-family: 'Inika', serif;
 }
@@ -6,8 +7,21 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    margin: 0;
+}
 
-/* added a potential logo - need to make a logo class */
+main{
+    margin: 0 10rem;
+}
+
+/*2 columns grid in the main section  */
+.col2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* HEADER CONTENT */
 .navbar-logo img {
     display: block;
     width: 100px;
@@ -20,15 +34,34 @@ img {
     border-radius: 5%;
 }
 
-.centerImage{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .navbar-logo h2{
     color: #011B28;
     margin-left: 50px;
+}
+
+.navbar-buttons a{
+    text-decoration: none;
+    color: #011B28;
+    font-size: 20px;
+}
+
+header{
+    background-image: url("images/backgroundImage.jpg");
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 40px;
+}
+
+.navbar-buttons, .navbar-logo{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
 }
 
 h1{
@@ -36,9 +69,27 @@ h1{
     justify-content: center;
     align-items: flex-end;
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Saira', sans-serif;
     font-size: 100px;
     text-shadow: 0 5px 5px black;
+}
+
+/* List in nav bar */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    padding: 0 50px;
+}
+
+/* TOUR PAGES */
+.centerImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h2{
@@ -62,55 +113,6 @@ h3{
     justify-content: center;
 }
 
-.navbar-buttons a{
-    text-decoration: none;
-    color: #011B28;
-    font-size: 20px;
-}
-
-/* List in nav bar */
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 50px;
-}
-
-header{
-    background-image: url("images/backgroundImage.jpg");
-    background-size: cover;
-    height: 100vh;
-    margin-bottom: 40px;
-}
-
-.navbar-buttons, .navbar-logo{
-    display: flex;
-    align-items: center;
-}
-
-li{
-    padding: 0 50px;
-}
-
-body{
-    margin: 0;
-}
-
-main{
-    margin: 0 10rem;
-}
-
-/*2 columns grid in the main section  */
-.col2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
 
 button {
     transition-duration: 0.2s;
@@ -129,7 +131,7 @@ button {
   }
 
 
-/* added this in just for the color from Figma */
+/* FOOTER */
 footer {
     display: flex;
     justify-content: space-around;
