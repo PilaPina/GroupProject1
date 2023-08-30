@@ -15,8 +15,8 @@ html{
 }
 
 img {
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 100%;
+    max-height: 100%;
     border-radius: 5%;
 }
 
@@ -41,6 +41,13 @@ h1{
     text-shadow: 0 5px 5px black;
 }
 
+h2{
+    color: #0074A7;
+}
+
+h3{
+    margin: 0;
+}
 
 .centerText{
     display: flex;
@@ -87,6 +94,10 @@ li{
 
 body{
     margin: 0;
+}
+
+main{
+    margin: 0 10rem;
 }
 
 /*2 columns grid in the main section  */
