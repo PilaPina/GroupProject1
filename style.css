@@ -1,4 +1,4 @@
-/* Core Items  */
+/* CORE ITEMS  */
 *{
     font-family: 'Inika', serif;
 }
@@ -19,6 +19,9 @@ main{
 .col2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 30px;
+    border: #011B28;
+    border-style: dotted;
 }
 
 /* HEADER CONTENT */
@@ -34,18 +37,18 @@ img {
     border-radius: 5%;
 }
 
-.navbar-logo h2{
+.navbar-logo h2 {
     color: #011B28;
     margin-left: 50px;
 }
 
-.navbar-buttons a{
+.navbar-buttons a {
     text-decoration: none;
     color: #011B28;
     font-size: 20px;
 }
 
-header{
+header {
     background-image: url("images/backgroundImage.jpg");
     background-size: cover;
     height: 100vh;
@@ -57,14 +60,14 @@ header{
     align-items: center;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 50px;
 }
 
-h1{
+h1 {
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -81,38 +84,65 @@ ul {
     padding: 0;
 }
 
-li{
+li {
     padding: 0 50px;
 }
 
 /* TOUR PAGES */
-.centerImage{
+.centerImage {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
 }
-
-h2{
+/* added these together for font color */
+h2, h3, p {
     color: #0074A7;
 }
 
-h3{
+h3 {
     margin: 0;
 }
 
-.centerText{
+.centerText {
     display: flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
-.iconsAlignment{
+/* icons */
+.iconsALignmentHIKE {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 400px;
 }
 
+.iconsAlignmentCAVE {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    max-width: 400px;
+}
 
+.icons {
+    display: flex;
+    align-items: flex-start;
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    color: #0074A7;
+}
+
+.iconText {
+    color: #0074A7;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+/* Book Tours buttons */
 button {
     transition-duration: 0.2s;
     border-radius: 12px;
@@ -126,7 +156,7 @@ button {
   }
   
   button:hover {
-    background-color: #db6d13; /* Green */
+    background-color: #db6d13; 
   }
 
 
@@ -136,12 +166,4 @@ footer {
     padding: 40px;
 }
   
-.icons
-{
-    display: flex;
-    align-items: center;
-    gap: 2px;
-    font-size: 50px;
-    color: #0074A7;
-}
 
