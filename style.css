@@ -130,6 +130,7 @@ h3 {
     max-width: 30px;
     max-width: 30px;
     color: #0074A7;
+    font-size: 70px;
 }
 
 .iconsAndText{
@@ -175,14 +176,6 @@ footer {
     padding: 40px;
 }
 
-.icons
-{
-    display: flex;
-    align-items: center;
-    gap: 2px;
-    font-size: 60px;
-    color: #0074A7;
-}
 
 .socialMedia{
     color: #D1E5EB;
