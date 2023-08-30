@@ -14,10 +14,20 @@ ul {
     justify-content: space-around;
 }
 
-header{
+nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+header{
+    background-image: url("images/backgroundImage.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+body{
+    margin: 0;
 }
 
 /*2 columns grid in the main section  */
