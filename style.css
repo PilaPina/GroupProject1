@@ -1,3 +1,7 @@
+*{
+    font-family: 'Inika', serif;
+}
+
 /* added a potential logo - need to make a logo class */
 img {
     display: block;
@@ -5,25 +9,37 @@ img {
     height: 100px;
 }
 
+h2{
+    margin-left: 50px;
+}
+
 /* List in nav bar */
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: space-around;
 }
 
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 50px;
 }
 
 header{
     background-image: url("images/backgroundImage.jpg");
     background-size: cover;
     height: 100vh;
+}
+
+.navbar-buttons, .navbar-logo{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    padding: 0 50px;
 }
 
 body{
