@@ -55,7 +55,7 @@ header {
     margin-bottom: 40px;
 }
 
-.navbar-buttons, .navbar-logo{
+.navbar-buttons, .navbar-logo {
     display: flex;
     align-items: center;
 }
@@ -162,8 +162,23 @@ button {
 
 /* FOOTER */
 footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
     background-color: #0074A7;
     padding: 40px;
 }
-  
 
+.icons
+{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 60px;
+    color: #0074A7;
+}
+
+.socialMedia{
+    color: #D1E5EB;
+    font-size: 40px;
+}
