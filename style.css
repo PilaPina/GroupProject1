@@ -96,16 +96,23 @@ li {
 /* added these together for font color */
 h2, h3, p {
     color: #0074A7;
-}
-
-h3 {
     margin: 0;
 }
 
-.centerText {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+h3 {
+    font-size: 25px;
+    margin-top: 0; 
+    letter-spacing: 7px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 30px; 
+    letter-spacing: 3px;
+}
+
+p {
+    width: 625px;
     margin-top: 10px;
 }
 
@@ -127,10 +134,9 @@ h3 {
 .icons {
     display: flex;
     align-items: flex-start;
-    max-width: 30px;
-    max-width: 30px;
+    max-width: 100px;
     color: #0074A7;
-    font-size: 70px;
+    font-size: 80px;
 }
 
 .iconsAndText{
@@ -138,16 +144,17 @@ h3 {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    gap: 15px;
+    gap: 25px;
+    margin-top: 50px;
 }
 
-.iconText {
-    color: #0074A7;
-    font-size: 1 0px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
+.iconsAndText p {
+    color: 0074A7;
+    margin: 0;
+    width: auto;
+
 }
+
 
 /* Book Tours buttons */
 button {
