@@ -27,6 +27,23 @@ header{
     padding: 20px;
 }
 
+button {
+    transition-duration: 0.2s;
+    border-radius: 12px;
+    font-size: 20px;
+    background-color: #0074A7;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+  }
+  
+  button:hover {
+    background-color: #db6d13; /* Green */
+  }
+
+
 /* added this in just for the color from Figma */
 footer {
     background-color: #0074A7;
