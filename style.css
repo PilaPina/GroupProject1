@@ -4,6 +4,7 @@ img {
     width: 100px;
     height: 100px;
 }
+
 /* List in nav bar */
 ul {
     list-style: none;
@@ -13,6 +14,44 @@ ul {
     justify-content: space-around;
 }
 
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header{
+    background-image: url("images/backgroundImage.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+body{
+    margin: 0;
+}
+
+/*2 columns grid in the main section  */
+.col2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+}
+
+button {
+    transition-duration: 0.2s;
+    border-radius: 12px;
+    font-size: 20px;
+    background-color: #0074A7;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+  }
+  
+  button:hover {
+    background-color: #db6d13; /* Green */
+  }
 
 
 /* added this in just for the color from Figma */
