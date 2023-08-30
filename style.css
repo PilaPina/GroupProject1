@@ -55,7 +55,7 @@ header {
     margin-bottom: 40px;
 }
 
-.navbar-buttons, .navbar-logo {
+.navbar-buttons, .navbar-logo{
     display: flex;
     align-items: center;
 }
@@ -113,7 +113,7 @@ h3 {
 .iconsALignmentHIKE {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     max-width: 400px;
 }
 
@@ -128,9 +128,8 @@ h3 {
 .icons {
     display: flex;
     align-items: flex-start;
-    font-size: 50px;
-    width: 100px;
-    height: 100px;
+    max-width: 50px;
+    max-width: 50px;
     color: #0074A7;
 }
 
