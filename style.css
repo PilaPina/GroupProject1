@@ -13,17 +13,7 @@ body{
 }
 
 main{
-    margin: 0 10rem;
-}
-
-/*2 columns grid in the main section  */
-.col2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 30px;
-    border: #011B28;
-    border-style: dotted;
-    column-gap: 50px;
+    margin: 0;
 }
 
 /* HEADER CONTENT */
@@ -137,14 +127,6 @@ p {
     font-size: 13pt;
 }
 
-.iconsAlignmentCAVE {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: flex-end;
-    max-width: 400px;
-}
-
 /* Book Tours buttons */
 button {
     transition-duration: 0.2s;
@@ -165,7 +147,7 @@ button {
     height: 150px;
   }
   
-  button:hover {
+button:hover {
     background-color: #db6d13; 
   }
 
@@ -184,8 +166,9 @@ footer {
     flex-direction: row;
 }
 
-h4{
+.footerText h3{
     color: #D1E5EB;
+    letter-spacing: 2px;
 }
 
 .footerLinks li{
@@ -193,17 +176,26 @@ h4{
     color: #D1E5EB;
 }
 
-
-.socialMedia{
+.socialMedia a{
     color: #D1E5EB;
     font-size: 35px;
 }
 
+.socialMedia ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialMedia li{
+    padding: 0 15px;
+}
+
+
+/*Flexboxes for main section*/
 .mainBox{
     display: flex;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .topBox {
@@ -213,11 +205,12 @@ h4{
     margin-top: 50px;
     justify-content: center;
 }
+
 .bottomBox {
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
     gap: 40px;
+    margin-top: 50px;
     justify-content: center;
 }
 
@@ -251,7 +244,19 @@ h4{
     width: auto;
 }
 
+/* ??
 .imgBox {
     align-items: end;
-}
+}*/
 
+.topBox2 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 50px;
+    justify-content: center;
+    /*background-color: #c8dee9;*/
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(236,236,236,1) 100%);
+    padding: 30px;
+}
