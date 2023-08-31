@@ -1,4 +1,24 @@
 
 body{
     background-color: #D1E5EB;
+    height: 100%;
+}
+
+input{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 10px;
+}
+
+label{
+    margin: 10px
+}
+
+.centeredForm{
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+    padding: 100px;
 }
