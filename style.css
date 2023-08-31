@@ -108,7 +108,10 @@ li {
 /* added these together for font color */
 h2, h3, p {
     color: #0074A7;
-    margin: 0; /*This is messing with the navbar text*/
+}
+
+.containerText h2, h3, p{
+    margin: 0;
 }
 
 h3 {
@@ -195,8 +198,7 @@ button {
   .buttonAlign{
     display: flex;
     justify-content: center;
-
-    margin: 20px 0;
+    align-items: center;
   }
   
   button:hover {
@@ -218,6 +220,7 @@ footer {
 }
 
 h4{
+    color: #D1E5EB;
 }
 
 .footerLinks li{
