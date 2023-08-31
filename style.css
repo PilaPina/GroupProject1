@@ -22,6 +22,7 @@ main{
     width: 100px;
     height: 100px;
     cursor: pointer;
+    margin-right: 0;
 }
 
 img {
@@ -32,7 +33,7 @@ img {
 
 .navbar-logo h2 {
     color: #011B28;
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 
@@ -134,6 +135,18 @@ p {
     font-size: 13pt;
 }
 
+hr {
+    border: none;
+    border-top: 10px solid #D1E5EB;
+    color: #0074A7;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
 /* Book Tours buttons */
 button {
     transition-duration: 0.2s;
@@ -212,7 +225,7 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    margin-top: 200px;
+    margin-top: 100px;  /*changed from 200px to 100px*/
     justify-content: center;
 }
 
