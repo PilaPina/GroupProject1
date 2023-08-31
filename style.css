@@ -169,6 +169,12 @@ p {
     width: auto;
 }
 
+.iconsFlex{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
 /*.imageOfsett{
     display: inline-block;
     justify-content: center;
@@ -232,4 +238,16 @@ h4{
 .socialMedia{
     color: #D1E5EB;
     font-size: 35px;
+}
+
+.mainBox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.topBox, .bottomBox{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
