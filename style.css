@@ -21,6 +21,7 @@ main{
     display: block;
     width: 100px;
     height: 100px;
+    cursor: pointer;
 }
 
 img {
@@ -34,10 +35,12 @@ img {
     margin-left: 50px;
 }
 
+
 .navbar-buttons a {
     text-decoration: none;
     color: #011B28;
     font-size: 20px;
+    cursor: pointer;
 }
 
 header {
@@ -138,6 +141,7 @@ button {
     text-decoration: none;
     border: none;
     padding: 10px;
+    cursor: pointer;
   }
 
   .buttonAlign{
