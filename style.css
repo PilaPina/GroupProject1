@@ -54,7 +54,7 @@ header {
     background-image: url("images/backgroundImage.jpg");
     background-size: cover;
     height: 100vh;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .navbar-buttons, .navbar-logo{
@@ -134,14 +134,8 @@ h2 {
 p {
     width: 625px;
     margin-top: 10px;
+    font-size: 13pt;
 }
-
-/* icons
-.iconsALignmentHIKE {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 400px;
-}*/
 
 .iconsAlignmentCAVE {
     display: flex;
@@ -149,20 +143,6 @@ p {
     justify-content: space-evenly;
     align-content: flex-end;
     max-width: 400px;
-}
-
-
-/*.imageOfsett{
-    display: inline-block;
-    justify-content: center;
-    position: relative;
-    bottom: 150px;
-    transform: translate(20px, 120px);
-}*/
-
-.imageOfsett img{
-    max-width: 80%;
-    max-height: 80%;
 }
 
 /* Book Tours buttons */
@@ -194,6 +174,7 @@ button {
 footer {
     background-color: #0074A7;
     padding: 40px;
+    margin-top: 50px;
 }
 
 .footerContainer{
