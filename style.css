@@ -146,34 +146,6 @@ p {
     max-width: 400px;
 }
 
-.icons {
-    display: flex;
-    align-items: flex-start;
-    max-width: 100px;
-    color: #0074A7;
-    font-size: 80px;
-}
-
-.iconsAndText{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 25px;
-    margin-top: 50px;
-}
-
-.iconsAndText p {
-    color: 0074A7;
-    margin: 0;
-    width: auto;
-}
-
-.iconsFlex{
-    display: flex;
-    justify-content: space-around;
-    margin: 0;
-}
 
 /*.imageOfsett{
     display: inline-block;
@@ -244,10 +216,54 @@ h4{
     display: flex;
     justify-content: center;
     flex-direction: column;
+
 }
 
-.topBox, .bottomBox{
+.topBox {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    margin-top: 50px;
+    justify-content: center;
 }
+.bottomBox {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.iconBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 640px;
+}
+
+.icons {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100px;
+    color: #0074A7;
+    font-size: 80px;
+}
+
+.iconsAndText{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.iconsAndText p {
+    color: 0074A7;
+    margin: 0;
+    width: auto;
+}
+
+.imgBox {
+    align-items: end;
+}
+
