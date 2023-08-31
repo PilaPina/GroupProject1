@@ -92,13 +92,14 @@ li {
 
 /* TOUR PAGES */
 .centerImage {
+    display: flex;
     justify-content: space-between;
 }
 
 /* added these together for font color */
 h2, h3, p {
     color: #0074A7;
-    margin: 0;
+    margin: 0; /*This is messing with the navbar text*/
 }
 
 h3 {
@@ -118,12 +119,12 @@ p {
     margin-top: 10px;
 }
 
-/* icons */
+/* icons
 .iconsALignmentHIKE {
     display: flex;
     flex-wrap: wrap;
     max-width: 400px;
-}
+}*/
 
 .iconsAlignmentCAVE {
     display: flex;
