@@ -69,14 +69,23 @@ nav {
 }
 
 h1 {
-    position: absolute;
-    text-align: center;
-    top: 64%;
-    left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     color: rgb(243, 251, 253);
     font-family: 'Saira', sans-serif;
     font-size: 100px;
     text-shadow: 0 5px 5px black;
+    margin: 0;
+}
+
+.containerHeight{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
 }
 
 /* List in nav bar */
@@ -157,11 +166,17 @@ p {
     width: auto;
 }
 
-.imageOfsett{
+/*.imageOfsett{
     display: inline-block;
     justify-content: center;
     position: relative;
     bottom: 150px;
+    transform: translate(20px, 120px);
+}*/
+
+.imageOfsett img{
+    max-width: 80%;
+    max-height: 80%;
 }
 
 /* Book Tours buttons */
@@ -190,15 +205,27 @@ button {
 
 /* FOOTER */
 footer {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
     background-color: #0074A7;
     padding: 40px;
+}
+
+.footerContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+h4{
+}
+
+.footerLinks li{
+    display: flex;
+    color: #D1E5EB;
 }
 
 
 .socialMedia{
     color: #D1E5EB;
-    font-size: 40px;
+    font-size: 35px;
 }
