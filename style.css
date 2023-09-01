@@ -103,6 +103,11 @@ li {
     justify-content: space-between;
 }
 
+.centerMap{
+    display: flex;
+    justify-content: center;
+}
+
 /* added these together for font color */
 h2, h3, p {
     color: #0074A7;
@@ -128,10 +133,14 @@ h2 {
     letter-spacing: 3px;
 }
 
-p {
+p, address {
     width: 625px;
     margin-top: 10px;
     font-size: 13pt;
+}
+
+address{
+    font-size: 14pt;
 }
 
 hr {
