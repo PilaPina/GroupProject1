@@ -136,12 +136,12 @@ p {
 
 hr {
     border: none;
-    border-top: 5px solid #D1E5EB;
+    border-top: 3px solid #D1E5EB;
     color: #0074A7;
     overflow: visible;
     text-align: center;
     height: 5px;
-    width: 60%;
+    width: 50%;
 }
 
 /* Book Tours buttons */
