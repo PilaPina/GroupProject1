@@ -215,6 +215,14 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 70%, rgba(155,211,236,0.2553396358543417) 100%);
+}
+
+.mainBox2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .topBox {
@@ -282,7 +290,9 @@ footer {
     gap: 40px;
     margin-top: 50px;
     justify-content: center;
+    /*background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(155,211,236,0.700717787114846) 100%);*/
     background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(155,211,236,0.700717787114846) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(155,211,236,0.4963235294117647) 100%);
     padding-bottom: 150px;
 }
