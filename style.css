@@ -140,7 +140,8 @@ p, address {
 }
 
 address{
-    font-size: 14pt;
+    font-size: 16pt;
+    color: #0074A7;
 }
 
 hr {
@@ -234,6 +235,14 @@ footer {
     flex-direction: column;
 }
 
+.mainBox3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 70%, rgba(155,211,236,0.2553396358543417) 100%);
+}
+
 .topBox {
     display: flex;
     flex-direction: row;
@@ -248,6 +257,10 @@ footer {
     gap: 40px;
     margin-top: 50px;  /*changed from 200px to 100px*/
     justify-content: center;
+}
+
+iframe{
+    border-radius: 40px;
 }
 
 .bottomBox {
@@ -288,11 +301,6 @@ footer {
     width: auto;
 }
 
-/* ??
-.imgBox {
-    align-items: end;
-}*/
-
 .topBox3 {
     display: flex;
     flex-direction: row;
@@ -304,4 +312,29 @@ footer {
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(155,211,236,0.4963235294117647) 100%);
     padding-bottom: 150px;
+}
+
+.contactInfo li{
+    font-size: 50px;
+    color: #0074A7;
+    margin: 10px 0;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contactInfo p{
+    font-size: 25px;
+}
+
+.infoBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 640px;
+}
+
+.testbox{
+    align-items: center;
 }
